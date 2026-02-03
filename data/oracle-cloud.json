@@ -1,0 +1,136 @@
+{
+  "provider": "oracle-cloud",
+  "lastUpdated": "2026-02-02T15:30:20Z",
+  "locations": [
+    {
+      "id": "us-ashburn-1",
+      "name": "US East (Ashburn)",
+      "type": "region",
+      "coordinates": { "latitude": 39.0458, "longitude": -77.5011 },
+      "city": "Ashburn",
+      "country": "United States",
+      "region": "us-ashburn-1",
+      "services": ["Compute", "Storage", "Database", "Networking"]
+    },
+    {
+      "id": "us-phoenix-1",
+      "name": "US West (Phoenix)",
+      "type": "region",
+      "coordinates": { "latitude": 33.4484, "longitude": -112.074 },
+      "city": "Phoenix",
+      "country": "United States",
+      "region": "us-phoenix-1",
+      "services": ["Compute", "Storage", "Database", "Networking"]
+    },
+    {
+      "id": "us-sanjose-1",
+      "name": "US West (San Jose)",
+      "type": "region",
+      "coordinates": { "latitude": 37.3382, "longitude": -121.8863 },
+      "city": "San Jose",
+      "country": "United States",
+      "region": "us-sanjose-1",
+      "services": ["Compute", "Storage"]
+    },
+    {
+      "id": "eu-frankfurt-1",
+      "name": "Germany Central (Frankfurt)",
+      "type": "region",
+      "coordinates": { "latitude": 50.1109, "longitude": 8.6821 },
+      "city": "Frankfurt",
+      "country": "Germany",
+      "region": "eu-frankfurt-1",
+      "services": ["Compute", "Storage", "Database"]
+    },
+    {
+      "id": "eu-zurich-1",
+      "name": "Switzerland North (Zurich)",
+      "type": "region",
+      "coordinates": { "latitude": 47.3769, "longitude": 8.5417 },
+      "city": "Zurich",
+      "country": "Switzerland",
+      "region": "eu-zurich-1",
+      "services": ["Compute", "Storage", "Database"]
+    },
+    {
+      "id": "uk-london-1",
+      "name": "UK South (London)",
+      "type": "region",
+      "coordinates": { "latitude": 51.5074, "longitude": -0.1278 },
+      "city": "London",
+      "country": "United Kingdom",
+      "region": "uk-london-1",
+      "services": ["Compute", "Storage", "Database"]
+    },
+    {
+      "id": "ap-mumbai-1",
+      "name": "India West (Mumbai)",
+      "type": "region",
+      "coordinates": { "latitude": 19.076, "longitude": 72.8777 },
+      "city": "Mumbai",
+      "country": "India",
+      "region": "ap-mumbai-1",
+      "services": ["Compute", "Storage"]
+    },
+    {
+      "id": "ap-hyderabad-1",
+      "name": "India South (Hyderabad)",
+      "type": "region",
+      "coordinates": { "latitude": 17.385, "longitude": 78.4867 },
+      "city": "Hyderabad",
+      "country": "India",
+      "region": "ap-hyderabad-1",
+      "services": ["Compute", "Storage", "Database"]
+    },
+    {
+      "id": "ap-tokyo-1",
+      "name": "Japan East (Tokyo)",
+      "type": "region",
+      "coordinates": { "latitude": 35.6762, "longitude": 139.6503 },
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "ap-tokyo-1",
+      "services": ["Compute", "Storage", "Database", "Networking"]
+    },
+    {
+      "id": "ap-osaka-1",
+      "name": "Japan Central (Osaka)",
+      "type": "region",
+      "coordinates": { "latitude": 34.6937, "longitude": 135.5023 },
+      "city": "Osaka",
+      "country": "Japan",
+      "region": "ap-osaka-1",
+      "services": ["Compute", "Storage"]
+    },
+    {
+      "id": "ap-singapore-1",
+      "name": "Singapore",
+      "type": "region",
+      "coordinates": { "latitude": 1.3521, "longitude": 103.8198 },
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "ap-singapore-1",
+      "services": ["Compute", "Storage", "Database"]
+    },
+    {
+      "id": "me-dubai-1",
+      "name": "UAE East (Dubai)",
+      "type": "region",
+      "coordinates": { "latitude": 25.2048, "longitude": 55.2708 },
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "region": "me-dubai-1",
+      "services": ["Compute", "Storage", "Database"]
+    },
+    {
+      "id": "sa-saopaulo-1",
+      "name": "Brazil East (São Paulo)",
+      "type": "region",
+      "coordinates": { "latitude": -23.5505, "longitude": -46.6333 },
+      "city": "São Paulo",
+      "country": "Brazil",
+      "region": "sa-saopaulo-1",
+      "services": ["Compute", "Storage", "Database"]
+    }
+  ]
+}

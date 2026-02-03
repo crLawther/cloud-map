@@ -1,0 +1,134 @@
+{
+  "provider": "alibaba-cloud",
+  "lastUpdated": "2024-01-15T00:00:00Z",
+  "locations": [
+    {
+      "id": "cn-hangzhou",
+      "name": "China (Hangzhou)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 30.2741,
+        "longitude": 120.1551
+      },
+      "city": "Hangzhou",
+      "country": "China",
+      "region": "cn-hangzhou",
+      "services": [
+        "ECS",
+        "OSS",
+        "RDS",
+        "SLB"
+      ]
+    },
+    {
+      "id": "us-west-1",
+      "name": "US (Silicon Valley)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.1430
+      },
+      "city": "Palo Alto",
+      "country": "United States",
+      "region": "us-west-1",
+      "services": [
+        "ECS",
+        "OSS",
+        "RDS"
+      ]
+    },
+    {
+      "id": "eu-central-1",
+      "name": "Germany (Frankfurt)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 50.1109,
+        "longitude": 8.6821
+      },
+      "city": "Frankfurt",
+      "country": "Germany",
+      "region": "eu-central-1",
+      "services": [
+        "ECS",
+        "OSS"
+      ]
+    },
+    {
+      "id": "ap-southeast-1",
+      "name": "Singapore",
+      "type": "region",
+      "coordinates": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "ap-southeast-1",
+      "services": [
+        "ECS",
+        "OSS",
+        "RDS"
+      ]
+    },
+    {
+      "id": "ap-northeast-1",
+      "name": "Japan (Tokyo)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      },
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "ap-northeast-1",
+      "services": [
+        "ECS",
+        "OSS",
+        "RDS",
+        "SLB"
+      ]
+    },
+    {
+      "id": "me-east-1",
+      "name": "Middle East (Dubai)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "region": "me-east-1",
+      "services": [
+        "ECS",
+        "OSS",
+        "RDS"
+      ]
+    },
+    {
+      "id": "cn-fuzhou",
+      "name": "China (Fuzhou - Local Region)",
+      "type": "edge-adjacent-region",
+      "city": "Fuzhou",
+      "country": "China",
+      "region": "cn-fuzhou",
+      "services": [
+        "ECS",
+        "OSS"
+      ],
+      "status": "closing-down"
+    },
+    {
+      "id": "cn-wuhan-lr",
+      "name": "China (Wuhan - Local Region)",
+      "type": "edge-adjacent-region",
+      "city": "Wuhan",
+      "country": "China",
+      "region": "cn-wuhan-lr",
+      "services": [
+        "ECS",
+        "OSS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1577 @@
+{
+  "provider": "azure",
+  "lastUpdated": "2025-02-02T00:00:00Z",
+  "locations": [
+    {
+      "id": "eastus",
+      "name": "East US",
+      "type": "region",
+      "coordinates": {
+        "latitude": 37.3719,
+        "longitude": -79.8164
+      },
+      "city": "Virginia",
+      "country": "United States",
+      "region": "eastus",
+      "availabilityZones": true,
+      "pairedRegion": "westus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "eastus2",
+      "name": "East US 2",
+      "type": "region",
+      "coordinates": {
+        "latitude": 37.3719,
+        "longitude": -79.8164
+      },
+      "city": "Virginia",
+      "country": "United States",
+      "region": "eastus2",
+      "availabilityZones": true,
+      "pairedRegion": "centralus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "centralus",
+      "name": "Central US",
+      "type": "region",
+      "coordinates": {
+        "latitude": 41.5908,
+        "longitude": -93.6208
+      },
+      "city": "Iowa",
+      "country": "United States",
+      "region": "centralus",
+      "availabilityZones": true,
+      "pairedRegion": "eastus2",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "northcentralus",
+      "name": "North Central US",
+      "type": "region",
+      "coordinates": {
+        "latitude": 41.8819,
+        "longitude": -87.6278
+      },
+      "city": "Illinois",
+      "country": "United States",
+      "region": "northcentralus",
+      "availabilityZones": false,
+      "pairedRegion": "southcentralus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "southcentralus",
+      "name": "South Central US",
+      "type": "region",
+      "coordinates": {
+        "latitude": 29.4167,
+        "longitude": -98.5
+      },
+      "city": "Texas",
+      "country": "United States",
+      "region": "southcentralus",
+      "availabilityZones": true,
+      "pairedRegion": "northcentralus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "westcentralus",
+      "name": "West Central US",
+      "type": "region",
+      "coordinates": {
+        "latitude": 40.89,
+        "longitude": -110.234
+      },
+      "city": "Wyoming",
+      "country": "United States",
+      "region": "westcentralus",
+      "availabilityZones": false,
+      "pairedRegion": "westus2",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "westus",
+      "name": "West US",
+      "type": "region",
+      "coordinates": {
+        "latitude": 37.783,
+        "longitude": -122.417
+      },
+      "city": "California",
+      "country": "United States",
+      "region": "westus",
+      "availabilityZones": false,
+      "pairedRegion": "eastus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "westus2",
+      "name": "West US 2",
+      "type": "region",
+      "coordinates": {
+        "latitude": 47.233,
+        "longitude": -119.852
+      },
+      "city": "Washington",
+      "country": "United States",
+      "region": "westus2",
+      "availabilityZones": true,
+      "pairedRegion": "westcentralus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "westus3",
+      "name": "West US 3",
+      "type": "region",
+      "coordinates": {
+        "latitude": 33.448,
+        "longitude": -112.074
+      },
+      "city": "Phoenix",
+      "country": "United States",
+      "region": "westus3",
+      "availabilityZones": true,
+      "pairedRegion": "eastus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "canadacentral",
+      "name": "Canada Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 43.653,
+        "longitude": -79.383
+      },
+      "city": "Toronto",
+      "country": "Canada",
+      "region": "canadacentral",
+      "availabilityZones": true,
+      "pairedRegion": "canadaeast",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "canadaeast",
+      "name": "Canada East",
+      "type": "region",
+      "coordinates": {
+        "latitude": 46.817,
+        "longitude": -71.217
+      },
+      "city": "Quebec",
+      "country": "Canada",
+      "region": "canadaeast",
+      "availabilityZones": false,
+      "pairedRegion": "canadacentral",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "brazilsouth",
+      "name": "Brazil South",
+      "type": "region",
+      "coordinates": {
+        "latitude": -23.55,
+        "longitude": -46.633
+      },
+      "city": "São Paulo",
+      "country": "Brazil",
+      "region": "brazilsouth",
+      "availabilityZones": true,
+      "pairedRegion": "southcentralus",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "brazilsoutheast",
+      "name": "Brazil Southeast",
+      "type": "region",
+      "coordinates": {
+        "latitude": -22.90,
+        "longitude": -43.172
+      },
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "region": "brazilsoutheast",
+      "availabilityZones": false,
+      "pairedRegion": "brazilsouth",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "chilecentral",
+      "name": "Chile Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": -33.447,
+        "longitude": -70.673
+      },
+      "city": "Santiago",
+      "country": "Chile",
+      "region": "chilecentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "mexicocentral",
+      "name": "Mexico Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 20.588,
+        "longitude": -100.389
+      },
+      "city": "Querétaro",
+      "country": "Mexico",
+      "region": "mexicocentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "northeurope",
+      "name": "North Europe",
+      "type": "region",
+      "coordinates": {
+        "latitude": 53.3498,
+        "longitude": -6.2603
+      },
+      "city": "Dublin",
+      "country": "Ireland",
+      "region": "northeurope",
+      "availabilityZones": true,
+      "pairedRegion": "westeurope",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "westeurope",
+      "name": "West Europe",
+      "type": "region",
+      "coordinates": {
+        "latitude": 52.3667,
+        "longitude": 4.9
+      },
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "region": "westeurope",
+      "availabilityZones": true,
+      "pairedRegion": "northeurope",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "uksouth",
+      "name": "UK South",
+      "type": "region",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "city": "London",
+      "country": "United Kingdom",
+      "region": "uksouth",
+      "availabilityZones": true,
+      "pairedRegion": "ukwest",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "ukwest",
+      "name": "UK West",
+      "type": "region",
+      "coordinates": {
+        "latitude": 51.4816,
+        "longitude": -3.179
+      },
+      "city": "Cardiff",
+      "country": "United Kingdom",
+      "region": "ukwest",
+      "availabilityZones": false,
+      "pairedRegion": "uksouth",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "francecentral",
+      "name": "France Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "city": "Paris",
+      "country": "France",
+      "region": "francecentral",
+      "availabilityZones": true,
+      "pairedRegion": "francesouth",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "francesouth",
+      "name": "France South",
+      "type": "region",
+      "coordinates": {
+        "latitude": 43.2965,
+        "longitude": 5.3698
+      },
+      "city": "Marseille",
+      "country": "France",
+      "region": "francesouth",
+      "availabilityZones": false,
+      "pairedRegion": "francecentral",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "germanywestcentral",
+      "name": "Germany West Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 50.1109,
+        "longitude": 8.6821
+      },
+      "city": "Frankfurt",
+      "country": "Germany",
+      "region": "germanywestcentral",
+      "availabilityZones": true,
+      "pairedRegion": "germanynorth",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "germanynorth",
+      "name": "Germany North",
+      "type": "region",
+      "coordinates": {
+        "latitude": 52.52,
+        "longitude": 13.405
+      },
+      "city": "Berlin",
+      "country": "Germany",
+      "region": "germanynorth",
+      "availabilityZones": false,
+      "pairedRegion": "germanywestcentral",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "norwayeast",
+      "name": "Norway East",
+      "type": "region",
+      "coordinates": {
+        "latitude": 59.9139,
+        "longitude": 10.7522
+      },
+      "city": "Oslo",
+      "country": "Norway",
+      "region": "norwayeast",
+      "availabilityZones": true,
+      "pairedRegion": "norwaywest",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "norwaywest",
+      "name": "Norway West",
+      "type": "region",
+      "coordinates": {
+        "latitude": 58.969975,
+        "longitude": 5.733107
+      },
+      "city": "Stavanger",
+      "country": "Norway",
+      "region": "norwaywest",
+      "availabilityZones": false,
+      "pairedRegion": "norwayeast",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "switzerlandnorth",
+      "name": "Switzerland North",
+      "type": "region",
+      "coordinates": {
+        "latitude": 47.3769,
+        "longitude": 8.5417
+      },
+      "city": "Zurich",
+      "country": "Switzerland",
+      "region": "switzerlandnorth",
+      "availabilityZones": true,
+      "pairedRegion": "switzerlandwest",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "switzerlandwest",
+      "name": "Switzerland West",
+      "type": "region",
+      "coordinates": {
+        "latitude": 46.2044,
+        "longitude": 6.1432
+      },
+      "city": "Geneva",
+      "country": "Switzerland",
+      "region": "switzerlandwest",
+      "availabilityZones": false,
+      "pairedRegion": "switzerlandnorth",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "swedencentral",
+      "name": "Sweden Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 60.6749,
+        "longitude": 17.1413
+      },
+      "city": "Gävle",
+      "country": "Sweden",
+      "region": "swedencentral",
+      "availabilityZones": true,
+      "pairedRegion": "swedensouth",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "spaincentral",
+      "name": "Spain Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 40.4168,
+        "longitude": -3.7038
+      },
+      "city": "Madrid",
+      "country": "Spain",
+      "region": "spaincentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "italynorth",
+      "name": "Italy North",
+      "type": "region",
+      "coordinates": {
+        "latitude": 45.4642,
+        "longitude": 9.19
+      },
+      "city": "Milan",
+      "country": "Italy",
+      "region": "italynorth",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "polandcentral",
+      "name": "Poland Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "city": "Warsaw",
+      "country": "Poland",
+      "region": "polandcentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "austriaeast",
+      "name": "Austria East",
+      "type": "region",
+      "coordinates": {
+        "latitude": 48.2082,
+        "longitude": 16.3738
+      },
+      "city": "Vienna",
+      "country": "Austria",
+      "region": "austriaeast",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "belgiumcentral",
+      "name": "Belgium Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 50.8503,
+        "longitude": 4.3517
+      },
+      "city": "Brussels",
+      "country": "Belgium",
+      "region": "belgiumcentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "denmarkeast",
+      "name": "Denmark East",
+      "type": "region",
+      "coordinates": {
+        "latitude": 55.6761,
+        "longitude": 12.5683
+      },
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "region": "denmarkeast",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "comingSoon": true,
+      "services": ["Virtual Machines", "Storage", "SQL Database"]
+    },
+    {
+      "id": "eastasia",
+      "name": "East Asia",
+      "type": "region",
+      "coordinates": {
+        "latitude": 22.267,
+        "longitude": 114.188
+      },
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "region": "eastasia",
+      "availabilityZones": true,
+      "pairedRegion": "southeastasia",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "southeastasia",
+      "name": "Southeast Asia",
+      "type": "region",
+      "coordinates": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "southeastasia",
+      "availabilityZones": true,
+      "pairedRegion": "eastasia",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "japaneast",
+      "name": "Japan East",
+      "type": "region",
+      "coordinates": {
+        "latitude": 35.68,
+        "longitude": 139.77
+      },
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "japaneast",
+      "availabilityZones": true,
+      "pairedRegion": "japanwest",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "japanwest",
+      "name": "Japan West",
+      "type": "region",
+      "coordinates": {
+        "latitude": 34.6937,
+        "longitude": 135.5023
+      },
+      "city": "Osaka",
+      "country": "Japan",
+      "region": "japanwest",
+      "availabilityZones": true,
+      "pairedRegion": "japaneast",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "koreacentral",
+      "name": "Korea Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 37.5665,
+        "longitude": 126.978
+      },
+      "city": "Seoul",
+      "country": "South Korea",
+      "region": "koreacentral",
+      "availabilityZones": true,
+      "pairedRegion": "koreasouth",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "koreasouth",
+      "name": "Korea South",
+      "type": "region",
+      "coordinates": {
+        "latitude": 35.1796,
+        "longitude": 129.0756
+      },
+      "city": "Busan",
+      "country": "South Korea",
+      "region": "koreasouth",
+      "availabilityZones": false,
+      "pairedRegion": "koreacentral",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "centralindia",
+      "name": "Central India",
+      "type": "region",
+      "coordinates": {
+        "latitude": 18.5822,
+        "longitude": 73.9197
+      },
+      "city": "Pune",
+      "country": "India",
+      "region": "centralindia",
+      "availabilityZones": true,
+      "pairedRegion": "southindia",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "southindia",
+      "name": "South India",
+      "type": "region",
+      "coordinates": {
+        "latitude": 12.9822,
+        "longitude": 80.1636
+      },
+      "city": "Chennai",
+      "country": "India",
+      "region": "southindia",
+      "availabilityZones": false,
+      "pairedRegion": "centralindia",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "westindia",
+      "name": "West India",
+      "type": "region",
+      "coordinates": {
+        "latitude": 19.088,
+        "longitude": 72.868
+      },
+      "city": "Mumbai",
+      "country": "India",
+      "region": "westindia",
+      "availabilityZones": false,
+      "pairedRegion": "southindia",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "australiaeast",
+      "name": "Australia East",
+      "type": "region",
+      "coordinates": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "city": "Sydney",
+      "country": "Australia",
+      "region": "australiaeast",
+      "availabilityZones": true,
+      "pairedRegion": "australiasoutheast",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes", "AI Services"]
+    },
+    {
+      "id": "australiasoutheast",
+      "name": "Australia Southeast",
+      "type": "region",
+      "coordinates": {
+        "latitude": -37.8136,
+        "longitude": 144.9631
+      },
+      "city": "Melbourne",
+      "country": "Australia",
+      "region": "australiasoutheast",
+      "availabilityZones": false,
+      "pairedRegion": "australiaeast",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "australiacentral",
+      "name": "Australia Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": -35.2809,
+        "longitude": 149.1300
+      },
+      "city": "Canberra",
+      "country": "Australia",
+      "region": "australiacentral",
+      "availabilityZones": false,
+      "pairedRegion": "australiacentral2",
+      "services": ["Virtual Machines", "Storage", "SQL Database"]
+    },
+    {
+      "id": "australiacentral2",
+      "name": "Australia Central 2",
+      "type": "region",
+      "coordinates": {
+        "latitude": -35.2809,
+        "longitude": 149.1300
+      },
+      "city": "Canberra",
+      "country": "Australia",
+      "region": "australiacentral2",
+      "availabilityZones": false,
+      "pairedRegion": "australiacentral",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "newzealandnorth",
+      "name": "New Zealand North",
+      "type": "region",
+      "coordinates": {
+        "latitude": -36.8485,
+        "longitude": 174.7633
+      },
+      "city": "Auckland",
+      "country": "New Zealand",
+      "region": "newzealandnorth",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "indonesiacentral",
+      "name": "Indonesia Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": -6.2088,
+        "longitude": 106.8456
+      },
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "region": "indonesiacentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "malaysiawest",
+      "name": "Malaysia West",
+      "type": "region",
+      "coordinates": {
+        "latitude": 3.139,
+        "longitude": 101.6869
+      },
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "region": "malaysiawest",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "qatarcentral",
+      "name": "Qatar Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 25.2854,
+        "longitude": 51.531
+      },
+      "city": "Doha",
+      "country": "Qatar",
+      "region": "qatarcentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "uaenorth",
+      "name": "UAE North",
+      "type": "region",
+      "coordinates": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "region": "uaenorth",
+      "availabilityZones": true,
+      "pairedRegion": "uaecentral",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service", "Kubernetes"]
+    },
+    {
+      "id": "uaecentral",
+      "name": "UAE Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 24.4539,
+        "longitude": 54.3773
+      },
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "region": "uaecentral",
+      "availabilityZones": false,
+      "pairedRegion": "uaenorth",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "israelcentral",
+      "name": "Israel Central",
+      "type": "region",
+      "coordinates": {
+        "latitude": 32.0853,
+        "longitude": 34.7818
+      },
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "region": "israelcentral",
+      "availabilityZones": true,
+      "pairedRegion": null,
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "southafricanorth",
+      "name": "South Africa North",
+      "type": "region",
+      "coordinates": {
+        "latitude": -26.1986,
+        "longitude": 28.0305
+      },
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "region": "southafricanorth",
+      "availabilityZones": true,
+      "pairedRegion": "southafricawest",
+      "services": ["Virtual Machines", "Storage", "SQL Database", "App Service"]
+    },
+    {
+      "id": "southafricawest",
+      "name": "South Africa West",
+      "type": "region",
+      "coordinates": {
+        "latitude": -33.9249,
+        "longitude": 18.4241
+      },
+      "city": "Cape Town",
+      "country": "South Africa",
+      "region": "southafricawest",
+      "availabilityZones": false,
+      "pairedRegion": "southafricanorth",
+      "restricted": true,
+      "services": ["Virtual Machines", "Storage"]
+    },
+    {
+      "id": "extended-zone-losangeles",
+      "name": "Los Angeles Extended Zone",
+      "type": "local-zone",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "city": "Los Angeles",
+      "country": "United States",
+      "parentRegion": "westus2",
+      "services": ["Virtual Machines", "Storage", "Containers"]
+    },
+    {
+      "id": "extended-zone-perth",
+      "name": "Perth Extended Zone",
+      "type": "local-zone",
+      "coordinates": {
+        "latitude": -31.9505,
+        "longitude": 115.8605
+      },
+      "city": "Perth",
+      "country": "Australia",
+      "parentRegion": "australiaeast",
+      "services": ["Virtual Machines", "Storage", "Containers"]
+    },
+    {
+      "id": "frontdoor-atlanta",
+      "name": "Atlanta Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 33.7490,
+        "longitude": -84.3880
+      },
+      "city": "Atlanta",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-chicago",
+      "name": "Chicago Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "city": "Chicago",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-dallas",
+      "name": "Dallas Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 32.7767,
+        "longitude": -96.7970
+      },
+      "city": "Dallas",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-denver",
+      "name": "Denver Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 39.7392,
+        "longitude": -104.9903
+      },
+      "city": "Englewood",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-houston",
+      "name": "Houston Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "city": "Houston",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-losangeles",
+      "name": "Los Angeles Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "city": "Los Angeles",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-miami",
+      "name": "Miami Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      },
+      "city": "Miami",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-newyork",
+      "name": "New York Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "city": "New York",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-phoenix",
+      "name": "Phoenix Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 33.4484,
+        "longitude": -112.0740
+      },
+      "city": "Phoenix",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-sanjose",
+      "name": "San Jose Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 37.3382,
+        "longitude": -121.8863
+      },
+      "city": "San Jose",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-seattle",
+      "name": "Seattle Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      },
+      "city": "Seattle",
+      "country": "United States",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-toronto",
+      "name": "Toronto Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "city": "Etobicoke",
+      "country": "Canada",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-montreal",
+      "name": "Montreal Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 45.5017,
+        "longitude": -73.5673
+      },
+      "city": "Montreal",
+      "country": "Canada",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-vancouver",
+      "name": "Vancouver Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 49.2827,
+        "longitude": -123.1207
+      },
+      "city": "Vancouver",
+      "country": "Canada",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-mexico",
+      "name": "Querétaro Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 20.5888,
+        "longitude": -100.3899
+      },
+      "city": "Querétaro",
+      "country": "Mexico",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-buenosaires",
+      "name": "Buenos Aires Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -34.6037,
+        "longitude": -58.3816
+      },
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-saopaulo",
+      "name": "São Paulo Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -23.5505,
+        "longitude": -46.6333
+      },
+      "city": "São Paulo",
+      "country": "Brazil",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-rio",
+      "name": "Rio de Janeiro Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -22.9068,
+        "longitude": -43.1729
+      },
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-bogota",
+      "name": "Bogotá Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 4.7110,
+        "longitude": -74.0721
+      },
+      "city": "Bogotá",
+      "country": "Colombia",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-london",
+      "name": "London Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "city": "London",
+      "country": "United Kingdom",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-manchester",
+      "name": "Manchester Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 53.4808,
+        "longitude": -2.2426
+      },
+      "city": "Manchester",
+      "country": "United Kingdom",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-paris",
+      "name": "Paris Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "city": "Paris",
+      "country": "France",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-frankfurt",
+      "name": "Frankfurt Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 50.1109,
+        "longitude": 8.6821
+      },
+      "city": "Frankfurt",
+      "country": "Germany",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-amsterdam",
+      "name": "Amsterdam Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 52.3676,
+        "longitude": 4.9041
+      },
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-dublin",
+      "name": "Dublin Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 53.3498,
+        "longitude": -6.2603
+      },
+      "city": "Dublin",
+      "country": "Ireland",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-madrid",
+      "name": "Madrid Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 40.4168,
+        "longitude": -3.7038
+      },
+      "city": "Madrid",
+      "country": "Spain",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-milan",
+      "name": "Milan Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 45.4642,
+        "longitude": 9.1900
+      },
+      "city": "Milan",
+      "country": "Italy",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-stockholm",
+      "name": "Stockholm Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 59.3293,
+        "longitude": 18.0686
+      },
+      "city": "Bromma",
+      "country": "Sweden",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-zurich",
+      "name": "Zurich Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 47.3769,
+        "longitude": 8.5417
+      },
+      "city": "Zurich",
+      "country": "Switzerland",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-oslo",
+      "name": "Oslo Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 59.9139,
+        "longitude": 10.7522
+      },
+      "city": "Oslo",
+      "country": "Norway",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-vienna",
+      "name": "Vienna Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 48.2082,
+        "longitude": 16.3738
+      },
+      "city": "Vienna",
+      "country": "Austria",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-warsaw",
+      "name": "Warsaw Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
+      "city": "Warsaw",
+      "country": "Poland",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-singapore",
+      "name": "Singapore Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "city": "Singapore",
+      "country": "Singapore",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-hongkong",
+      "name": "Hong Kong Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 22.3193,
+        "longitude": 114.1694
+      },
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-tokyo",
+      "name": "Tokyo Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      },
+      "city": "Tokyo",
+      "country": "Japan",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-osaka",
+      "name": "Osaka Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 34.6937,
+        "longitude": 135.5023
+      },
+      "city": "Osaka",
+      "country": "Japan",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-seoul",
+      "name": "Seoul Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 37.5665,
+        "longitude": 126.9780
+      },
+      "city": "Seoul",
+      "country": "South Korea",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-taipei",
+      "name": "Taipei Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 25.0330,
+        "longitude": 121.5654
+      },
+      "city": "Taipei",
+      "country": "Taiwan",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-bangkok",
+      "name": "Bangkok Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 13.7563,
+        "longitude": 100.5018
+      },
+      "city": "Bangkok",
+      "country": "Thailand",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-kualalumpur",
+      "name": "Kuala Lumpur Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 3.1390,
+        "longitude": 101.6869
+      },
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-jakarta",
+      "name": "Jakarta Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -6.2088,
+        "longitude": 106.8456
+      },
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-manila",
+      "name": "Manila Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 14.5995,
+        "longitude": 120.9842
+      },
+      "city": "Manila",
+      "country": "Philippines",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-hochiminh",
+      "name": "Ho Chi Minh City Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 10.8231,
+        "longitude": 106.6297
+      },
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-sydney",
+      "name": "Sydney Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "city": "Sydney",
+      "country": "Australia",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-melbourne",
+      "name": "Melbourne Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -37.8136,
+        "longitude": 144.9631
+      },
+      "city": "Melbourne",
+      "country": "Australia",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-perth",
+      "name": "Perth Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -31.9505,
+        "longitude": 115.8605
+      },
+      "city": "Perth",
+      "country": "Australia",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-auckland",
+      "name": "Auckland Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -36.8485,
+        "longitude": 174.7633
+      },
+      "city": "Auckland",
+      "country": "New Zealand",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-mumbai",
+      "name": "Mumbai Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 19.0760,
+        "longitude": 72.8777
+      },
+      "city": "Mumbai",
+      "country": "India",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-chennai",
+      "name": "Chennai Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 13.0827,
+        "longitude": 80.2707
+      },
+      "city": "Chennai",
+      "country": "India",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-newdelhi",
+      "name": "New Delhi Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 28.6139,
+        "longitude": 77.2090
+      },
+      "city": "New Delhi",
+      "country": "India",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-dubai",
+      "name": "Dubai Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-doha",
+      "name": "Doha Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 25.2854,
+        "longitude": 51.5310
+      },
+      "city": "Doha",
+      "country": "Qatar",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-telaviv",
+      "name": "Tel Aviv Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 32.0853,
+        "longitude": 34.7818
+      },
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-istanbul",
+      "name": "Istanbul Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 41.0082,
+        "longitude": 28.9784
+      },
+      "city": "Istanbul",
+      "country": "Turkey",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-johannesburg",
+      "name": "Johannesburg Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -26.1986,
+        "longitude": 28.0305
+      },
+      "city": "Isando",
+      "country": "South Africa",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-capetown",
+      "name": "Cape Town Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -33.9249,
+        "longitude": 18.4241
+      },
+      "city": "Cape Town",
+      "country": "South Africa",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-cairo",
+      "name": "Cairo Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": 30.0444,
+        "longitude": 31.2357
+      },
+      "city": "Cairo",
+      "country": "Egypt",
+      "services": ["CDN", "Front Door"]
+    },
+    {
+      "id": "frontdoor-nairobi",
+      "name": "Nairobi Front Door POP",
+      "type": "edge-location",
+      "coordinates": {
+        "latitude": -1.2921,
+        "longitude": 36.8219
+      },
+      "city": "Nairobi",
+      "country": "Kenya",
+      "services": ["CDN", "Front Door"]
+    }
+  ]
+}

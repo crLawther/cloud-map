@@ -1,0 +1,129 @@
+{
+  "provider": "ibm-cloud",
+  "lastUpdated": "2026-02-02T15:30:20Z",
+  "locations": [
+    {
+      "id": "us-south",
+      "name": "US South (Dallas)",
+      "type": "region",
+      "coordinates": { "latitude": 32.7767, "longitude": -96.7970 },
+      "city": "Dallas",
+      "country": "United States",
+      "region": "us-south",
+      "services": ["Virtual Servers", "Object Storage", "Databases", "Watson"]
+    },
+    {
+      "id": "br-sao",
+      "name": "Brazil (Sao Paulo)",
+      "type": "region",
+      "coordinates": { "latitude": -23.5505, "longitude": -46.6333 },
+      "city": "São Paulo",
+      "country": "Brazil",
+      "region": "br-sao",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+    {
+      "id": "ca-tor",
+      "name": "Canada (Toronto)",
+      "type": "region",
+      "coordinates": { "latitude": 43.6532, "longitude": -79.3832 },
+      "city": "Toronto",
+      "country": "Canada",
+      "region": "ca-tor",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+    {
+      "id": "us-east",
+      "name": "US East (Washington DC)",
+      "type": "region",
+      "coordinates": { "latitude": 38.9072, "longitude": -77.0369 },
+      "city": "Washington, DC",
+      "country": "United States",
+      "region": "us-east",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+
+    {
+      "id": "eu-de",
+      "name": "Germany (Frankfurt)",
+      "type": "region",
+      "coordinates": { "latitude": 50.1109, "longitude": 8.6821 },
+      "city": "Frankfurt",
+      "country": "Germany",
+      "region": "eu-de",
+      "services": ["Virtual Servers", "Object Storage", "Databases", "Watson"]
+    },
+    {
+      "id": "eu-gb",
+      "name": "United Kingdom (London)",
+      "type": "region",
+      "coordinates": { "latitude": 51.5074, "longitude": -0.1278 },
+      "city": "London",
+      "country": "United Kingdom",
+      "region": "eu-gb",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+    {
+      "id": "eu-es",
+      "name": "Spain (Madrid)",
+      "type": "region",
+      "coordinates": { "latitude": 40.4168, "longitude": -3.7038 },
+      "city": "Madrid",
+      "country": "Spain",
+      "region": "eu-es",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+
+    {
+      "id": "au-syd",
+      "name": "Australia (Sydney)",
+      "type": "region",
+      "coordinates": { "latitude": -33.8688, "longitude": 151.2093 },
+      "city": "Sydney",
+      "country": "Australia",
+      "region": "au-syd",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+    {
+      "id": "jp-tok",
+      "name": "Japan (Tokyo)",
+      "type": "region",
+      "coordinates": { "latitude": 35.6762, "longitude": 139.6503 },
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "jp-tok",
+      "services": ["Virtual Servers", "Object Storage"]
+    },
+
+    {
+      "id": "in-che",
+      "name": "India (Chennai)",
+      "type": "sc-mzr",
+      "coordinates": { "latitude": 13.0827, "longitude": 80.2707 },
+      "city": "Chennai",
+      "country": "India",
+      "region": "in-che",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+    {
+      "id": "ca-mon",
+      "name": "Canada (Montreal)",
+      "type": "sc-mzr",
+      "coordinates": { "latitude": 45.5017, "longitude": -73.5673 },
+      "city": "Montreal",
+      "country": "Canada",
+      "region": "ca-mon",
+      "services": ["Virtual Servers", "Object Storage", "Databases"]
+    },
+    {
+      "id": "jp-osa",
+      "name": "Japan (Osaka)",
+      "type": "sc-mzr",
+      "coordinates": { "latitude": 34.6937, "longitude": 135.5023 },
+      "city": "Osaka",
+      "country": "Japan",
+      "region": "jp-osa",
+      "services": ["Virtual Servers", "Object Storage"]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "provider": "gcp",
+  "lastUpdated": "2026-02-02T15:30:20Z",
+  "locations": [
+    {
+      "id": "africa-south1",
+      "name": "africa-south1 (Johannesburg)",
+      "type": "region",
+      "coordinates": { "latitude": -26.2041, "longitude": 28.0473 },
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "region": "africa-south1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-east1",
+      "name": "asia-east1 (Taiwan)",
+      "type": "region",
+      "coordinates": { "latitude": 24.0518, "longitude": 120.5161 },
+      "city": "Changhua County",
+      "country": "Taiwan",
+      "region": "asia-east1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-east2",
+      "name": "asia-east2 (Hong Kong)",
+      "type": "region",
+      "coordinates": { "latitude": 22.3193, "longitude": 114.1694 },
+      "city": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "region": "asia-east2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-northeast1",
+      "name": "asia-northeast1 (Tokyo)",
+      "type": "region",
+      "coordinates": { "latitude": 35.6762, "longitude": 139.6503 },
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "asia-northeast1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-northeast2",
+      "name": "asia-northeast2 (Osaka)",
+      "type": "region",
+      "coordinates": { "latitude": 34.6937, "longitude": 135.5023 },
+      "city": "Osaka",
+      "country": "Japan",
+      "region": "asia-northeast2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-northeast3",
+      "name": "asia-northeast3 (Seoul)",
+      "type": "region",
+      "coordinates": { "latitude": 37.5665, "longitude": 126.9780 },
+      "city": "Seoul",
+      "country": "South Korea",
+      "region": "asia-northeast3",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-south1",
+      "name": "asia-south1 (Mumbai)",
+      "type": "region",
+      "coordinates": { "latitude": 19.0760, "longitude": 72.8777 },
+      "city": "Mumbai",
+      "country": "India",
+      "region": "asia-south1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-south2",
+      "name": "asia-south2 (Delhi)",
+      "type": "region",
+      "coordinates": { "latitude": 28.6139, "longitude": 77.2090 },
+      "city": "Delhi",
+      "country": "India",
+      "region": "asia-south2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-southeast1",
+      "name": "asia-southeast1 (Singapore)",
+      "type": "region",
+      "coordinates": { "latitude": 1.3521, "longitude": 103.8198 },
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "asia-southeast1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-southeast2",
+      "name": "asia-southeast2 (Jakarta)",
+      "type": "region",
+      "coordinates": { "latitude": -6.2088, "longitude": 106.8456 },
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "region": "asia-southeast2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "asia-southeast3",
+      "name": "asia-southeast3 (Bangkok)",
+      "type": "region",
+      "coordinates": { "latitude": 13.7563, "longitude": 100.5018 },
+      "city": "Bangkok",
+      "country": "Thailand",
+      "region": "asia-southeast3",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "australia-southeast1",
+      "name": "australia-southeast1 (Sydney)",
+      "type": "region",
+      "coordinates": { "latitude": -33.8688, "longitude": 151.2093 },
+      "city": "Sydney",
+      "country": "Australia",
+      "region": "australia-southeast1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "australia-southeast2",
+      "name": "australia-southeast2 (Melbourne)",
+      "type": "region",
+      "coordinates": { "latitude": -37.8136, "longitude": 144.9631 },
+      "city": "Melbourne",
+      "country": "Australia",
+      "region": "australia-southeast2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-central2",
+      "name": "europe-central2 (Warsaw)",
+      "type": "region",
+      "coordinates": { "latitude": 52.2297, "longitude": 21.0122 },
+      "city": "Warsaw",
+      "country": "Poland",
+      "region": "europe-central2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-north1",
+      "name": "europe-north1 (Finland)",
+      "type": "region",
+      "coordinates": { "latitude": 60.5697, "longitude": 27.1970 },
+      "city": "Hamina",
+      "country": "Finland",
+      "region": "europe-north1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-north2",
+      "name": "europe-north2 (Stockholm)",
+      "type": "region",
+      "coordinates": { "latitude": 59.3293, "longitude": 18.0686 },
+      "city": "Stockholm",
+      "country": "Sweden",
+      "region": "europe-north2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-southwest1",
+      "name": "europe-southwest1 (Madrid)",
+      "type": "region",
+      "coordinates": { "latitude": 40.4168, "longitude": -3.7038 },
+      "city": "Madrid",
+      "country": "Spain",
+      "region": "europe-southwest1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west1",
+      "name": "europe-west1 (Belgium)",
+      "type": "region",
+      "coordinates": { "latitude": 50.4450, "longitude": 3.8186 },
+      "city": "St. Ghislain",
+      "country": "Belgium",
+      "region": "europe-west1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west2",
+      "name": "europe-west2 (London)",
+      "type": "region",
+      "coordinates": { "latitude": 51.5074, "longitude": -0.1278 },
+      "city": "London",
+      "country": "United Kingdom",
+      "region": "europe-west2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west3",
+      "name": "europe-west3 (Frankfurt)",
+      "type": "region",
+      "coordinates": { "latitude": 50.1109, "longitude": 8.6821 },
+      "city": "Frankfurt",
+      "country": "Germany",
+      "region": "europe-west3",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west4",
+      "name": "europe-west4 (Netherlands)",
+      "type": "region",
+      "coordinates": { "latitude": 53.4386, "longitude": 6.8356 },
+      "city": "Eemshaven",
+      "country": "Netherlands",
+      "region": "europe-west4",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west6",
+      "name": "europe-west6 (Zürich)",
+      "type": "region",
+      "coordinates": { "latitude": 47.3769, "longitude": 8.5417 },
+      "city": "Zurich",
+      "country": "Switzerland",
+      "region": "europe-west6",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west8",
+      "name": "europe-west8 (Milan)",
+      "type": "region",
+      "coordinates": { "latitude": 45.4642, "longitude": 9.1900 },
+      "city": "Milan",
+      "country": "Italy",
+      "region": "europe-west8",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west9",
+      "name": "europe-west9 (Paris)",
+      "type": "region",
+      "coordinates": { "latitude": 48.8566, "longitude": 2.3522 },
+      "city": "Paris",
+      "country": "France",
+      "region": "europe-west9",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west10",
+      "name": "europe-west10 (Berlin)",
+      "type": "region",
+      "coordinates": { "latitude": 52.5200, "longitude": 13.4050 },
+      "city": "Berlin",
+      "country": "Germany",
+      "region": "europe-west10",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "europe-west12",
+      "name": "europe-west12 (Turin)",
+      "type": "region",
+      "coordinates": { "latitude": 45.0703, "longitude": 7.6869 },
+      "city": "Turin",
+      "country": "Italy",
+      "region": "europe-west12",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "me-central1",
+      "name": "me-central1 (Doha)",
+      "type": "region",
+      "coordinates": { "latitude": 25.2854, "longitude": 51.5310 },
+      "city": "Doha",
+      "country": "Qatar",
+      "region": "me-central1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "me-central2",
+      "name": "me-central2 (Dammam)",
+      "type": "region",
+      "coordinates": { "latitude": 26.4207, "longitude": 50.0888 },
+      "city": "Dammam",
+      "country": "Saudi Arabia",
+      "region": "me-central2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "me-west1",
+      "name": "me-west1 (Tel Aviv)",
+      "type": "region",
+      "coordinates": { "latitude": 32.0853, "longitude": 34.7818 },
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "region": "me-west1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "northamerica-northeast1",
+      "name": "northamerica-northeast1 (Montréal)",
+      "type": "region",
+      "coordinates": { "latitude": 45.5017, "longitude": -73.5673 },
+      "city": "Montreal",
+      "country": "Canada",
+      "region": "northamerica-northeast1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "northamerica-northeast2",
+      "name": "northamerica-northeast2 (Toronto)",
+      "type": "region",
+      "coordinates": { "latitude": 43.6532, "longitude": -79.3832 },
+      "city": "Toronto",
+      "country": "Canada",
+      "region": "northamerica-northeast2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "northamerica-south1",
+      "name": "northamerica-south1 (Mexico)",
+      "type": "region",
+      "coordinates": { "latitude": 20.5888, "longitude": -100.3899 },
+      "city": "Querétaro",
+      "country": "Mexico",
+      "region": "northamerica-south1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "southamerica-east1",
+      "name": "southamerica-east1 (São Paulo)",
+      "type": "region",
+      "coordinates": { "latitude": -23.5505, "longitude": -46.6333 },
+      "city": "São Paulo",
+      "country": "Brazil",
+      "region": "southamerica-east1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "southamerica-west1",
+      "name": "southamerica-west1 (Santiago)",
+      "type": "region",
+      "coordinates": { "latitude": -33.4489, "longitude": -70.6693 },
+      "city": "Santiago",
+      "country": "Chile",
+      "region": "southamerica-west1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-central1",
+      "name": "us-central1 (Iowa)",
+      "type": "region",
+      "coordinates": { "latitude": 41.2619, "longitude": -95.8608 },
+      "city": "Council Bluffs",
+      "country": "United States",
+      "region": "us-central1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-east1",
+      "name": "us-east1 (South Carolina)",
+      "type": "region",
+      "coordinates": { "latitude": 33.1957, "longitude": -80.0131 },
+      "city": "Moncks Corner",
+      "country": "United States",
+      "region": "us-east1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-east4",
+      "name": "us-east4 (Northern Virginia)",
+      "type": "region",
+      "coordinates": { "latitude": 39.0438, "longitude": -77.4874 },
+      "city": "Ashburn",
+      "country": "United States",
+      "region": "us-east4",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-east5",
+      "name": "us-east5 (Columbus)",
+      "type": "region",
+      "coordinates": { "latitude": 39.9612, "longitude": -82.9988 },
+      "city": "Columbus",
+      "country": "United States",
+      "region": "us-east5",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-south1",
+      "name": "us-south1 (Dallas)",
+      "type": "region",
+      "coordinates": { "latitude": 32.7767, "longitude": -96.7970 },
+      "city": "Dallas",
+      "country": "United States",
+      "region": "us-south1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-west1",
+      "name": "us-west1 (Oregon)",
+      "type": "region",
+      "coordinates": { "latitude": 45.5946, "longitude": -121.1787 },
+      "city": "The Dalles",
+      "country": "United States",
+      "region": "us-west1",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-west2",
+      "name": "us-west2 (Los Angeles)",
+      "type": "region",
+      "coordinates": { "latitude": 34.0522, "longitude": -118.2437 },
+      "city": "Los Angeles",
+      "country": "United States",
+      "region": "us-west2",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-west3",
+      "name": "us-west3 (Salt Lake City)",
+      "type": "region",
+      "coordinates": { "latitude": 40.7608, "longitude": -111.8910 },
+      "city": "Salt Lake City",
+      "country": "United States",
+      "region": "us-west3",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    },
+    {
+      "id": "us-west4",
+      "name": "us-west4 (Las Vegas)",
+      "type": "region",
+      "coordinates": { "latitude": 36.1699, "longitude": -115.1398 },
+      "city": "Las Vegas",
+      "country": "United States",
+      "region": "us-west4",
+      "services": ["Compute Engine", "Google Kubernetes Engine", "Cloud Storage", "Persistent Disk", "Cloud SQL", "Virtual Private Cloud", "Cloud VPN", "Cloud Key Management Service", "Cloud Identity", "Secret Manager"]
+    }
+  ]
+}
