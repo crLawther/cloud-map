@@ -6,1055 +6,1887 @@
       "id": "us-east-1",
       "name": "US East (N. Virginia)",
       "type": "region",
-      "coordinates": { "latitude": 38.9072, "longitude": -77.0369 },
+      "coordinates": {
+        "latitude": 39.0466,
+        "longitude": -77.47129
+      },
       "city": "Ashburn",
       "country": "United States",
       "region": "us-east-1",
       "availabilityZones": 6,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS", "DynamoDB"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS",
+        "DynamoDB"
+      ]
+    },
+    {
+      "id": "us-gov-east-1",
+      "name": "AWS GovCloud (US-East)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 39.0641,
+        "longitude": -77.4732
+      },
+      "city": "Eastern United States",
+      "country": "United States",
+      "region": "us-gov-east-1",
+      "availabilityZones": 3,
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS",
+        "DynamoDB"
+      ]
+    },
+    {
+      "id": "us-gov-west-1",
+      "name": "AWS GovCloud (US-West)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 45.8412,
+        "longitude": -119.7012
+      },
+      "city": "Western United States",
+      "country": "United States",
+      "region": "us-gov-west-1",
+      "availabilityZones": 3,
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS",
+        "DynamoDB"
+      ]
+    },
+    {
+      "id": "eusc-de-east-1",
+      "name": "AWS European Sovereign Cloud (Germany)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 52.4125,
+        "longitude": 13.0572
+      },
+      "city": "Brandenburg",
+      "country": "Germany",
+      "region": "eusc-de-east-1",
+      "availabilityZones": 3,
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS",
+        "DynamoDB"
+      ]
     },
     {
       "id": "us-east-2",
       "name": "US East (Ohio)",
       "type": "region",
-      "coordinates": { "latitude": 40.4173, "longitude": -82.9071 },
+      "coordinates": {
+        "latitude": 40.4173,
+        "longitude": -82.9071
+      },
       "city": "Columbus",
       "country": "United States",
       "region": "us-east-2",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS"
+      ]
     },
     {
       "id": "us-west-1",
       "name": "US West (N. California)",
       "type": "region",
-      "coordinates": { "latitude": 37.3541, "longitude": -121.9552 },
+      "coordinates": {
+        "latitude": 37.3541,
+        "longitude": -121.9552
+      },
       "city": "San Jose",
       "country": "United States",
       "region": "us-west-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "us-west-2",
       "name": "US West (Oregon)",
       "type": "region",
-      "coordinates": { "latitude": 45.5898, "longitude": -121.1789 },
+      "coordinates": {
+        "latitude": 45.5898,
+        "longitude": -121.1789
+      },
       "city": "Boardman",
       "country": "United States",
       "region": "us-west-2",
       "availabilityZones": 4,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS", "DynamoDB"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS",
+        "DynamoDB"
+      ]
     },
     {
       "id": "af-south-1",
       "name": "Africa (Cape Town)",
       "type": "region",
-      "coordinates": { "latitude": -33.9249, "longitude": 18.4241 },
+      "coordinates": {
+        "latitude": -33.9249,
+        "longitude": 18.4241
+      },
       "city": "Cape Town",
       "country": "South Africa",
       "region": "af-south-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-east-1",
       "name": "Asia Pacific (Hong Kong)",
       "type": "region",
-      "coordinates": { "latitude": 22.3193, "longitude": 114.1694 },
+      "coordinates": {
+        "latitude": 22.3193,
+        "longitude": 114.1694
+      },
       "city": "Hong Kong",
       "country": "Hong Kong",
       "region": "ap-east-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-south-1",
       "name": "Asia Pacific (Mumbai)",
       "type": "region",
-      "coordinates": { "latitude": 19.0760, "longitude": 72.8777 },
+      "coordinates": {
+        "latitude": 19.0760,
+        "longitude": 72.8777
+      },
       "city": "Mumbai",
       "country": "India",
       "region": "ap-south-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
     },
     {
       "id": "ap-south-2",
       "name": "Asia Pacific (Hyderabad)",
       "type": "region",
-      "coordinates": { "latitude": 17.3850, "longitude": 78.4867 },
+      "coordinates": {
+        "latitude": 17.3850,
+        "longitude": 78.4867
+      },
       "city": "Hyderabad",
       "country": "India",
       "region": "ap-south-2",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-northeast-1",
       "name": "Asia Pacific (Tokyo)",
       "type": "region",
-      "coordinates": { "latitude": 35.6762, "longitude": 139.6503 },
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      },
       "city": "Tokyo",
       "country": "Japan",
       "region": "ap-northeast-1",
       "availabilityZones": 4,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS"
+      ]
     },
     {
       "id": "ap-northeast-2",
       "name": "Asia Pacific (Seoul)",
       "type": "region",
-      "coordinates": { "latitude": 37.5665, "longitude": 126.9780 },
+      "coordinates": {
+        "latitude": 37.5665,
+        "longitude": 126.9780
+      },
       "city": "Seoul",
       "country": "South Korea",
       "region": "ap-northeast-2",
       "availabilityZones": 4,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
     },
     {
       "id": "ap-northeast-3",
       "name": "Asia Pacific (Osaka)",
       "type": "region",
-      "coordinates": { "latitude": 34.6937, "longitude": 135.5023 },
+      "coordinates": {
+        "latitude": 34.6937,
+        "longitude": 135.5023
+      },
       "city": "Osaka",
       "country": "Japan",
       "region": "ap-northeast-3",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS"
+      ]
     },
     {
       "id": "ap-southeast-1",
       "name": "Asia Pacific (Singapore)",
       "type": "region",
-      "coordinates": { "latitude": 1.3521, "longitude": 103.8198 },
+      "coordinates": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
       "city": "Singapore",
       "country": "Singapore",
       "region": "ap-southeast-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS"
+      ]
     },
     {
       "id": "ap-southeast-2",
       "name": "Asia Pacific (Sydney)",
       "type": "region",
-      "coordinates": { "latitude": -33.8688, "longitude": 151.2093 },
+      "coordinates": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
       "city": "Sydney",
       "country": "Australia",
       "region": "ap-southeast-2",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS"
+      ]
     },
     {
       "id": "ap-southeast-3",
       "name": "Asia Pacific (Jakarta)",
       "type": "region",
-      "coordinates": { "latitude": -6.2088, "longitude": 106.8456 },
+      "coordinates": {
+        "latitude": -6.2088,
+        "longitude": 106.8456
+      },
       "city": "Jakarta",
       "country": "Indonesia",
       "region": "ap-southeast-3",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-southeast-4",
       "name": "Asia Pacific (Melbourne)",
       "type": "region",
-      "coordinates": { "latitude": -37.8136, "longitude": 144.9631 },
+      "coordinates": {
+        "latitude": -37.8136,
+        "longitude": 144.9631
+      },
       "city": "Melbourne",
       "country": "Australia",
       "region": "ap-southeast-4",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-southeast-5",
       "name": "Asia Pacific (Auckland)",
       "type": "region",
-      "coordinates": { "latitude": -36.8485, "longitude": 174.7633 },
+      "coordinates": {
+        "latitude": -36.8485,
+        "longitude": 174.7633
+      },
       "city": "Auckland",
       "country": "New Zealand",
       "region": "ap-southeast-5",
       "availabilityZones": 3,
       "launchDate": "2025",
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-southeast-6",
       "name": "Asia Pacific (Thailand)",
       "type": "region",
-      "coordinates": { "latitude": 13.7563, "longitude": 100.5018 },
+      "coordinates": {
+        "latitude": 13.7563,
+        "longitude": 100.5018
+      },
       "city": "Bangkok",
       "country": "Thailand",
       "region": "ap-southeast-6",
       "availabilityZones": 3,
       "launchDate": "2025-01",
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ap-southeast-7",
       "name": "Asia Pacific (Malaysia)",
       "type": "region",
-      "coordinates": { "latitude": 3.1390, "longitude": 101.6869 },
+      "coordinates": {
+        "latitude": 3.1390,
+        "longitude": 101.6869
+      },
       "city": "Kuala Lumpur",
       "country": "Malaysia",
       "region": "ap-southeast-7",
       "availabilityZones": 3,
       "launchDate": "2025",
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "ca-central-1",
       "name": "Canada (Central)",
       "type": "region",
-      "coordinates": { "latitude": 45.5017, "longitude": -73.5673 },
+      "coordinates": {
+        "latitude": 45.5017,
+        "longitude": -73.5673
+      },
       "city": "Montreal",
       "country": "Canada",
       "region": "ca-central-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
     },
     {
       "id": "ca-west-1",
       "name": "Canada (Calgary)",
       "type": "region",
-      "coordinates": { "latitude": 51.0447, "longitude": -114.0719 },
+      "coordinates": {
+        "latitude": 51.0447,
+        "longitude": -114.0719
+      },
       "city": "Calgary",
       "country": "Canada",
       "region": "ca-west-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "eu-central-1",
       "name": "Europe (Frankfurt)",
       "type": "region",
-      "coordinates": { "latitude": 50.1109, "longitude": 8.6821 },
+      "coordinates": {
+        "latitude": 50.1109,
+        "longitude": 8.6821
+      },
       "city": "Frankfurt",
       "country": "Germany",
       "region": "eu-central-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS", "DynamoDB"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS",
+        "DynamoDB"
+      ]
     },
     {
       "id": "eu-central-2",
       "name": "Europe (Zurich)",
       "type": "region",
-      "coordinates": { "latitude": 47.3769, "longitude": 8.5417 },
+      "coordinates": {
+        "latitude": 47.3769,
+        "longitude": 8.5417
+      },
       "city": "Zurich",
       "country": "Switzerland",
       "region": "eu-central-2",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "eu-north-1",
       "name": "Europe (Stockholm)",
       "type": "region",
-      "coordinates": { "latitude": 59.3293, "longitude": 18.0686 },
+      "coordinates": {
+        "latitude": 59.3293,
+        "longitude": 18.0686
+      },
       "city": "Stockholm",
       "country": "Sweden",
       "region": "eu-north-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
     },
     {
       "id": "eu-south-1",
       "name": "Europe (Milan)",
       "type": "region",
-      "coordinates": { "latitude": 45.4642, "longitude": 9.1900 },
+      "coordinates": {
+        "latitude": 45.4642,
+        "longitude": 9.1900
+      },
       "city": "Milan",
       "country": "Italy",
       "region": "eu-south-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "eu-south-2",
       "name": "Europe (Spain)",
       "type": "region",
-      "coordinates": { "latitude": 40.4168, "longitude": -3.7038 },
+      "coordinates": {
+        "latitude": 40.4168,
+        "longitude": -3.7038
+      },
       "city": "Madrid",
       "country": "Spain",
       "region": "eu-south-2",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "eu-west-1",
       "name": "Europe (Ireland)",
       "type": "region",
-      "coordinates": { "latitude": 53.3498, "longitude": -6.2603 },
+      "coordinates": {
+        "latitude": 53.3498,
+        "longitude": -6.2603
+      },
       "city": "Dublin",
       "country": "Ireland",
       "region": "eu-west-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS", "DynamoDB"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS",
+        "DynamoDB"
+      ]
     },
     {
       "id": "eu-west-2",
       "name": "Europe (London)",
       "type": "region",
-      "coordinates": { "latitude": 51.5074, "longitude": -0.1278 },
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
       "city": "London",
       "country": "United Kingdom",
       "region": "eu-west-2",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "CloudFront", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "CloudFront",
+        "EKS"
+      ]
     },
     {
       "id": "eu-west-3",
       "name": "Europe (Paris)",
       "type": "region",
-      "coordinates": { "latitude": 48.8566, "longitude": 2.3522 },
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
       "city": "Paris",
       "country": "France",
       "region": "eu-west-3",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
     },
     {
       "id": "il-central-1",
       "name": "Israel (Tel Aviv)",
       "type": "region",
-      "coordinates": { "latitude": 32.0853, "longitude": 34.7818 },
+      "coordinates": {
+        "latitude": 32.0853,
+        "longitude": 34.7818
+      },
       "city": "Tel Aviv",
       "country": "Israel",
       "region": "il-central-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "me-south-1",
       "name": "Middle East (Bahrain)",
       "type": "region",
-      "coordinates": { "latitude": 26.0667, "longitude": 50.5577 },
+      "coordinates": {
+        "latitude": 26.0667,
+        "longitude": 50.5577
+      },
       "city": "Manama",
       "country": "Bahrain",
       "region": "me-south-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "me-central-1",
       "name": "Middle East (UAE)",
       "type": "region",
-      "coordinates": { "latitude": 25.2048, "longitude": 55.2708 },
+      "coordinates": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
       "city": "Dubai",
       "country": "United Arab Emirates",
       "region": "me-central-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
+    },
+    {
+      "id": "me-central-2",
+      "name": "AWS Middle East (Saudi Arabia)",
+      "type": "region",
+      "coordinates": {
+        "latitude": 24.7136,
+        "longitude": 46.6753
+      },
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "region": "me-central-2",
+      "availabilityZones": 3,
+      "services": [
+        "Coming Soon"
+      ]
     },
     {
       "id": "me-central-2",
       "name": "Middle East (Saudi Arabia)",
       "type": "region",
-      "coordinates": { "latitude": 24.7136, "longitude": 46.6753 },
+      "coordinates": {
+        "latitude": 24.7136,
+        "longitude": 46.6753
+      },
       "city": "Riyadh",
       "country": "Saudi Arabia",
       "region": "me-central-2",
       "availabilityZones": 3,
       "announced": true,
       "plannedLaunch": "2026",
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "sa-east-1",
       "name": "South America (São Paulo)",
       "type": "region",
-      "coordinates": { "latitude": -23.5505, "longitude": -46.6333 },
+      "coordinates": {
+        "latitude": -23.5505,
+        "longitude": -46.6333
+      },
       "city": "São Paulo",
       "country": "Brazil",
       "region": "sa-east-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda", "EKS"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "EKS"
+      ]
     },
     {
       "id": "sa-east-2",
       "name": "South America (Chile)",
       "type": "region",
-      "coordinates": { "latitude": -33.4489, "longitude": -70.6693 },
+      "coordinates": {
+        "latitude": -33.4489,
+        "longitude": -70.6693
+      },
       "city": "Santiago",
       "country": "Chile",
       "region": "sa-east-2",
       "availabilityZones": 3,
       "announced": true,
       "plannedLaunch": "2026",
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "mx-central-1",
       "name": "North America (Mexico)",
       "type": "region",
-      "coordinates": { "latitude": 20.5888, "longitude": -100.3899 },
+      "coordinates": {
+        "latitude": 20.5888,
+        "longitude": -100.3899
+      },
       "city": "Querétaro",
       "country": "Mexico",
       "region": "mx-central-1",
       "availabilityZones": 3,
-      "services": ["EC2", "S3", "RDS", "Lambda"]
+      "services": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda"
+      ]
     },
     {
       "id": "us-east-1-atl-2a",
       "name": "Atlanta Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 33.7490, "longitude": -84.3880 },
+      "coordinates": {
+        "latitude": 33.7490,
+        "longitude": -84.3880
+      },
       "city": "Atlanta",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-atl-2a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-east-1-bos-1a",
       "name": "Boston Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 42.3601, "longitude": -71.0589 },
+      "coordinates": {
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
       "city": "Boston",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-bos-1a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-east-1-chi-2a",
       "name": "Chicago Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 41.8781, "longitude": -87.6298 },
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
       "city": "Chicago",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-chi-2a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-east-1-dfw-2a",
       "name": "Dallas Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 32.8968, "longitude": -97.0380 },
+      "coordinates": {
+        "latitude": 32.8968,
+        "longitude": -97.0380
+      },
       "city": "Dallas",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-dfw-2a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-east-1-iah-2a",
       "name": "Houston Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 29.7604, "longitude": -95.3698 },
+      "coordinates": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
       "city": "Houston",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-iah-2a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-west-2-lax-1a",
       "name": "Los Angeles Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 34.0522, "longitude": -118.2437 },
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
       "city": "Los Angeles",
       "country": "United States",
       "parentRegion": "us-west-2",
       "zoneName": "us-west-2-lax-1a",
-      "services": ["EC2", "EBS", "VPC", "ELB", "RDS"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB",
+        "RDS"
+      ]
     },
     {
       "id": "us-east-1-mia-2a",
       "name": "Miami Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 25.7617, "longitude": -80.1918 },
+      "coordinates": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      },
       "city": "Miami",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-mia-2a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-west-2-phx-2a",
       "name": "Phoenix Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 33.4484, "longitude": -112.0740 },
+      "coordinates": {
+        "latitude": 33.4484,
+        "longitude": -112.0740
+      },
       "city": "Phoenix",
       "country": "United States",
       "parentRegion": "us-west-2",
       "zoneName": "us-west-2-phx-2a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-east-1-nyc-1a",
       "name": "New York City Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 40.7128, "longitude": -74.0060 },
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
       "city": "New York",
       "country": "United States",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-nyc-1a",
-      "services": ["EC2", "EBS", "VPC", "ELB"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC",
+        "ELB"
+      ]
     },
     {
       "id": "us-west-2-den-1a",
       "name": "Denver Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 39.7392, "longitude": -104.9903 },
+      "coordinates": {
+        "latitude": 39.7392,
+        "longitude": -104.9903
+      },
       "city": "Denver",
       "country": "United States",
       "parentRegion": "us-west-2",
       "zoneName": "us-west-2-den-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-southeast-1-bkk-1a",
       "name": "Bangkok Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 13.7563, "longitude": 100.5018 },
+      "coordinates": {
+        "latitude": 13.7563,
+        "longitude": 100.5018
+      },
       "city": "Bangkok",
       "country": "Thailand",
       "parentRegion": "ap-southeast-1",
       "zoneName": "ap-southeast-1-bkk-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-southeast-2-akl-1a",
       "name": "Auckland Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": -36.8485, "longitude": 174.7633 },
+      "coordinates": {
+        "latitude": -36.8485,
+        "longitude": 174.7633
+      },
       "city": "Auckland",
       "country": "New Zealand",
       "parentRegion": "ap-southeast-2",
       "zoneName": "ap-southeast-2-akl-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "cn-north-1-pkx-1a",
       "name": "Beijing Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 39.9042, "longitude": 116.4074 },
+      "coordinates": {
+        "latitude": 39.9042,
+        "longitude": 116.4074
+      },
       "city": "Beijing",
       "country": "China",
       "parentRegion": "cn-north-1",
       "zoneName": "cn-north-1-pkx-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
+    {
+    "id": "cn-north-1",
+    "name": "AWS China (Beijing)",
+    "type": "region",
+    "coordinates": { "latitude": 39.9042, "longitude": 116.4074 },
+    "city": "Beijing",
+    "country": "China",
+    "region": "cn-north-1",
+    "availabilityZones": 3,
+    "services": ["Coming Soon"]
+  },
     {
       "id": "us-east-1-bue-1a",
       "name": "Buenos Aires Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": -34.6037, "longitude": -58.3816 },
+      "coordinates": {
+        "latitude": -34.6037,
+        "longitude": -58.3816
+      },
       "city": "Buenos Aires",
       "country": "Argentina",
       "parentRegion": "us-east-1",
       "zoneName": "us-east-1-bue-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "eu-north-1-cph-1a",
       "name": "Copenhagen Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 55.6761, "longitude": 12.5683 },
+      "coordinates": {
+        "latitude": 55.6761,
+        "longitude": 12.5683
+      },
       "city": "Copenhagen",
       "country": "Denmark",
       "parentRegion": "eu-north-1",
       "zoneName": "eu-north-1-cph-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-south-1-del-1a",
       "name": "Delhi Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 28.7041, "longitude": 77.1025 },
+      "coordinates": {
+        "latitude": 28.7041,
+        "longitude": 77.1025
+      },
       "city": "Delhi",
       "country": "India",
       "parentRegion": "ap-south-1",
       "zoneName": "ap-south-1-del-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "eu-central-1-ham-1a",
       "name": "Hamburg Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 53.5511, "longitude": 9.9937 },
+      "coordinates": {
+        "latitude": 53.5511,
+        "longitude": 9.9937
+      },
       "city": "Hamburg",
       "country": "Germany",
       "parentRegion": "eu-central-1",
       "zoneName": "eu-central-1-ham-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "eu-north-1-hel-1a",
       "name": "Helsinki Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 60.1699, "longitude": 24.9384 },
+      "coordinates": {
+        "latitude": 60.1699,
+        "longitude": 24.9384
+      },
       "city": "Helsinki",
       "country": "Finland",
       "parentRegion": "eu-north-1",
       "zoneName": "eu-north-1-hel-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-south-1-ccu-1a",
       "name": "Kolkata Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 22.5726, "longitude": 88.3639 },
+      "coordinates": {
+        "latitude": 22.5726,
+        "longitude": 88.3639
+      },
       "city": "Kolkata",
       "country": "India",
       "parentRegion": "ap-south-1",
       "zoneName": "ap-south-1-ccu-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "af-south-1-los-1a",
       "name": "Lagos Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 6.5244, "longitude": 3.3792 },
+      "coordinates": {
+        "latitude": 6.5244,
+        "longitude": 3.3792
+      },
       "city": "Lagos",
       "country": "Nigeria",
       "parentRegion": "af-south-1",
       "zoneName": "af-south-1-los-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "sa-east-1-lim-1a",
       "name": "Lima Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": -12.0464, "longitude": -77.0428 },
+      "coordinates": {
+        "latitude": -12.0464,
+        "longitude": -77.0428
+      },
       "city": "Lima",
       "country": "Peru",
       "parentRegion": "sa-east-1",
       "zoneName": "sa-east-1-lim-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-southeast-1-mnl-1a",
       "name": "Manila Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 14.5995, "longitude": 120.9842 },
+      "coordinates": {
+        "latitude": 14.5995,
+        "longitude": 120.9842
+      },
       "city": "Manila",
       "country": "Philippines",
       "parentRegion": "ap-southeast-1",
       "zoneName": "ap-southeast-1-mnl-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "me-south-1-mct-1a",
       "name": "Muscat Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 23.5880, "longitude": 58.3829 },
+      "coordinates": {
+        "latitude": 23.5880,
+        "longitude": 58.3829
+      },
       "city": "Muscat",
       "country": "Oman",
       "parentRegion": "me-south-1",
       "zoneName": "me-south-1-mct-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-southeast-2-per-1a",
       "name": "Perth Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": -31.9505, "longitude": 115.8605 },
+      "coordinates": {
+        "latitude": -31.9505,
+        "longitude": 115.8605
+      },
       "city": "Perth",
       "country": "Australia",
       "parentRegion": "ap-southeast-2",
       "zoneName": "ap-southeast-2-per-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "mx-central-1-qro-1a",
       "name": "Querétaro Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 20.5888, "longitude": -100.3899 },
+      "coordinates": {
+        "latitude": 20.5888,
+        "longitude": -100.3899
+      },
       "city": "Querétaro",
       "country": "Mexico",
       "parentRegion": "mx-central-1",
       "zoneName": "mx-central-1-qro-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "sa-east-1-scl-1a",
       "name": "Santiago Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": -33.4489, "longitude": -70.6693 },
+      "coordinates": {
+        "latitude": -33.4489,
+        "longitude": -70.6693
+      },
       "city": "Santiago",
       "country": "Chile",
       "parentRegion": "sa-east-1",
       "zoneName": "sa-east-1-scl-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "ap-northeast-1-tpe-1a",
       "name": "Taipei Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 25.0330, "longitude": 121.5654 },
+      "coordinates": {
+        "latitude": 25.0330,
+        "longitude": 121.5654
+      },
       "city": "Taipei",
       "country": "Taiwan",
       "parentRegion": "ap-northeast-1",
       "zoneName": "ap-northeast-1-tpe-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "eu-central-1-waw-1a",
       "name": "Warsaw Local Zone",
       "type": "local-zone",
-      "coordinates": { "latitude": 52.2297, "longitude": 21.0122 },
+      "coordinates": {
+        "latitude": 52.2297,
+        "longitude": 21.0122
+      },
       "city": "Warsaw",
       "country": "Poland",
       "parentRegion": "eu-central-1",
       "zoneName": "eu-central-1-waw-1a",
-      "services": ["EC2", "EBS", "VPC"]
+      "services": [
+        "EC2",
+        "EBS",
+        "VPC"
+      ]
     },
     {
       "id": "us-east-1-wl1-bos-wlz-1",
       "name": "Boston Wavelength Zone",
       "type": "wavelength-zone",
-      "coordinates": { "latitude": 42.3601, "longitude": -71.0589 },
+      "coordinates": {
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
       "city": "Boston",
       "country": "United States",
       "parentRegion": "us-east-1",
       "carrier": "Verizon",
-      "services": ["EC2", "ECS"]
+      "services": [
+        "EC2",
+        "ECS"
+      ]
     },
     {
       "id": "us-east-1-wl1-atl-wlz-1",
       "name": "Atlanta Wavelength Zone",
       "type": "wavelength-zone",
-      "coordinates": { "latitude": 33.7490, "longitude": -84.3880 },
+      "coordinates": {
+        "latitude": 33.7490,
+        "longitude": -84.3880
+      },
       "city": "Atlanta",
       "country": "United States",
       "parentRegion": "us-east-1",
       "carrier": "Verizon",
-      "services": ["EC2", "ECS"]
+      "services": [
+        "EC2",
+        "ECS"
+      ]
     },
     {
       "id": "us-east-1-wl1-was-wlz-1",
       "name": "Washington DC Wavelength Zone",
       "type": "wavelength-zone",
-      "coordinates": { "latitude": 38.9072, "longitude": -77.0369 },
+      "coordinates": {
+        "latitude": 38.9072,
+        "longitude": -77.0369
+      },
       "city": "Washington DC",
       "country": "United States",
       "parentRegion": "us-east-1",
       "carrier": "Verizon",
-      "services": ["EC2", "ECS"]
+      "services": [
+        "EC2",
+        "ECS"
+      ]
     },
     {
       "id": "us-west-2-wl1-sea-wlz-1",
       "name": "Seattle Wavelength Zone",
       "type": "wavelength-zone",
-      "coordinates": { "latitude": 47.6062, "longitude": -122.3321 },
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      },
       "city": "Seattle",
       "country": "United States",
       "parentRegion": "us-west-2",
       "carrier": "Verizon",
-      "services": ["EC2", "ECS"]
+      "services": [
+        "EC2",
+        "ECS"
+      ]
     },
     {
       "id": "ap-northeast-1-wl1-nrt-wlz-1",
       "name": "Tokyo Wavelength Zone",
       "type": "wavelength-zone",
-      "coordinates": { "latitude": 35.6762, "longitude": 139.6503 },
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      },
       "city": "Tokyo",
       "country": "Japan",
       "parentRegion": "ap-northeast-1",
       "carrier": "KDDI",
-      "services": ["EC2", "ECS"]
+      "services": [
+        "EC2",
+        "ECS"
+      ]
     },
     {
       "id": "ap-northeast-2-wl1-sel-wlz-1",
       "name": "Seoul Wavelength Zone",
       "type": "wavelength-zone",
-      "coordinates": { "latitude": 37.5665, "longitude": 126.9780 },
+      "coordinates": {
+        "latitude": 37.5665,
+        "longitude": 126.9780
+      },
       "city": "Seoul",
       "country": "South Korea",
       "parentRegion": "ap-northeast-2",
       "carrier": "SK Telecom",
-      "services": ["EC2", "ECS"]
+      "services": [
+        "EC2",
+        "ECS"
+      ]
     },
     {
       "id": "cloudfront-edge-iad",
       "name": "Ashburn Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 39.0438, "longitude": -77.4874 },
+      "coordinates": {
+        "latitude": 39.0438,
+        "longitude": -77.4874
+      },
       "city": "Ashburn",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-atl",
       "name": "Atlanta Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 33.7490, "longitude": -84.3880 },
+      "coordinates": {
+        "latitude": 33.7490,
+        "longitude": -84.3880
+      },
       "city": "Atlanta",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-bos",
       "name": "Boston Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 42.3601, "longitude": -71.0589 },
+      "coordinates": {
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
       "city": "Boston",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-ord",
       "name": "Chicago Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 41.9742, "longitude": -87.9073 },
+      "coordinates": {
+        "latitude": 41.9742,
+        "longitude": -87.9073
+      },
       "city": "Chicago",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-dfw",
       "name": "Dallas Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 32.8968, "longitude": -97.0380 },
+      "coordinates": {
+        "latitude": 32.8968,
+        "longitude": -97.0380
+      },
       "city": "Dallas",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-den",
       "name": "Denver Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 39.8561, "longitude": -104.6737 },
+      "coordinates": {
+        "latitude": 39.8561,
+        "longitude": -104.6737
+      },
       "city": "Denver",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-iah",
       "name": "Houston Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 29.9844, "longitude": -95.3414 },
+      "coordinates": {
+        "latitude": 29.9844,
+        "longitude": -95.3414
+      },
       "city": "Houston",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-lax",
       "name": "Los Angeles Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 33.9425, "longitude": -118.4081 },
+      "coordinates": {
+        "latitude": 33.9425,
+        "longitude": -118.4081
+      },
       "city": "Los Angeles",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-mia",
       "name": "Miami Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 25.7959, "longitude": -80.2870 },
+      "coordinates": {
+        "latitude": 25.7959,
+        "longitude": -80.2870
+      },
       "city": "Miami",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-jfk",
       "name": "New York Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 40.6413, "longitude": -73.7781 },
+      "coordinates": {
+        "latitude": 40.6413,
+        "longitude": -73.7781
+      },
       "city": "New York",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-ewr",
       "name": "Newark Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 40.6895, "longitude": -74.1745 },
+      "coordinates": {
+        "latitude": 40.6895,
+        "longitude": -74.1745
+      },
       "city": "Newark",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-phx",
       "name": "Phoenix Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 33.4373, "longitude": -112.0078 },
+      "coordinates": {
+        "latitude": 33.4373,
+        "longitude": -112.0078
+      },
       "city": "Phoenix",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-sea",
       "name": "Seattle Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 47.4502, "longitude": -122.3088 },
+      "coordinates": {
+        "latitude": 47.4502,
+        "longitude": -122.3088
+      },
       "city": "Seattle",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-sjc",
       "name": "San Jose Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 37.3639, "longitude": -121.9289 },
+      "coordinates": {
+        "latitude": 37.3639,
+        "longitude": -121.9289
+      },
       "city": "San Jose",
       "country": "United States",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-yyz",
       "name": "Toronto Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 43.6777, "longitude": -79.6248 },
+      "coordinates": {
+        "latitude": 43.6777,
+        "longitude": -79.6248
+      },
       "city": "Toronto",
       "country": "Canada",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-gru",
       "name": "São Paulo Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": -23.4356, "longitude": -46.4731 },
+      "coordinates": {
+        "latitude": -23.4356,
+        "longitude": -46.4731
+      },
       "city": "São Paulo",
       "country": "Brazil",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-eze",
       "name": "Buenos Aires Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": -34.8222, "longitude": -58.5358 },
+      "coordinates": {
+        "latitude": -34.8222,
+        "longitude": -58.5358
+      },
       "city": "Buenos Aires",
       "country": "Argentina",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-lhr",
       "name": "London Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 51.4700, "longitude": -0.4543 },
+      "coordinates": {
+        "latitude": 51.4700,
+        "longitude": -0.4543
+      },
       "city": "London",
       "country": "United Kingdom",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-fra",
       "name": "Frankfurt Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 50.0379, "longitude": 8.5622 },
+      "coordinates": {
+        "latitude": 50.0379,
+        "longitude": 8.5622
+      },
       "city": "Frankfurt",
       "country": "Germany",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-ams",
       "name": "Amsterdam Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 52.3105, "longitude": 4.7683 },
+      "coordinates": {
+        "latitude": 52.3105,
+        "longitude": 4.7683
+      },
       "city": "Amsterdam",
       "country": "Netherlands",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-cdg",
       "name": "Paris Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 49.0097, "longitude": 2.5479 },
+      "coordinates": {
+        "latitude": 49.0097,
+        "longitude": 2.5479
+      },
       "city": "Paris",
       "country": "France",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-arn",
       "name": "Stockholm Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 59.6519, "longitude": 17.9186 },
+      "coordinates": {
+        "latitude": 59.6519,
+        "longitude": 17.9186
+      },
       "city": "Stockholm",
       "country": "Sweden",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-mad",
       "name": "Madrid Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 40.4983, "longitude": -3.5676 },
+      "coordinates": {
+        "latitude": 40.4983,
+        "longitude": -3.5676
+      },
       "city": "Madrid",
       "country": "Spain",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-sin",
       "name": "Singapore Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 1.3644, "longitude": 103.9915 },
+      "coordinates": {
+        "latitude": 1.3644,
+        "longitude": 103.9915
+      },
       "city": "Singapore",
       "country": "Singapore",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-hkg",
       "name": "Hong Kong Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 22.3080, "longitude": 113.9185 },
+      "coordinates": {
+        "latitude": 22.3080,
+        "longitude": 113.9185
+      },
       "city": "Hong Kong",
       "country": "Hong Kong",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-nrt",
       "name": "Tokyo Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 35.7720, "longitude": 140.3929 },
+      "coordinates": {
+        "latitude": 35.7720,
+        "longitude": 140.3929
+      },
       "city": "Tokyo",
       "country": "Japan",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-icn",
       "name": "Seoul Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 37.4602, "longitude": 126.4407 },
+      "coordinates": {
+        "latitude": 37.4602,
+        "longitude": 126.4407
+      },
       "city": "Seoul",
       "country": "South Korea",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-syd",
       "name": "Sydney Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": -33.9461, "longitude": 151.1772 },
+      "coordinates": {
+        "latitude": -33.9461,
+        "longitude": 151.1772
+      },
       "city": "Sydney",
       "country": "Australia",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-mel",
       "name": "Melbourne Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": -37.6690, "longitude": 144.8410 },
+      "coordinates": {
+        "latitude": -37.6690,
+        "longitude": 144.8410
+      },
       "city": "Melbourne",
       "country": "Australia",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-bom",
       "name": "Mumbai Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 19.0896, "longitude": 72.8656 },
+      "coordinates": {
+        "latitude": 19.0896,
+        "longitude": 72.8656
+      },
       "city": "Mumbai",
       "country": "India",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-dxb",
       "name": "Dubai Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": 25.2532, "longitude": 55.3657 },
+      "coordinates": {
+        "latitude": 25.2532,
+        "longitude": 55.3657
+      },
       "city": "Dubai",
       "country": "United Arab Emirates",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     },
     {
       "id": "cloudfront-edge-cpt",
       "name": "Cape Town Edge Location",
       "type": "edge-location",
-      "coordinates": { "latitude": -33.9715, "longitude": 18.6021 },
+      "coordinates": {
+        "latitude": -33.9715,
+        "longitude": 18.6021
+      },
       "city": "Cape Town",
       "country": "South Africa",
-      "services": ["CloudFront", "Route 53"]
+      "services": [
+        "CloudFront",
+        "Route 53"
+      ]
     }
   ]
 }

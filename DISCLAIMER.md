@@ -192,9 +192,8 @@ This disclaimer shall be governed by and construed in accordance with applicable
 
 If you have questions or concerns about this disclaimer:
 
-- **Email**: feedback@example.com
-- **GitHub Issues**: [Repository URL]
-- **LinkedIn**: [Profile URL]
+- **GitHub Issues**: [\[Repository URL\]](https://github.com/crLawther/cloud-map/issues)
+
 
 ### Reporting Inaccuracies
 
@@ -232,4 +231,4 @@ By accessing and using this website, you acknowledge that:
 
 ---
 
-*Last Updated: February 1, 2026*
+*Last Updated: February 4, 2026*
